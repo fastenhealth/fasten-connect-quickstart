@@ -1,0 +1,13 @@
+<!-- these should be included in the head tag of the html file, included in the body for demonstration purposes only -->
+<link rel="stylesheet" href="https://cdn.fastenhealth.com/connect/dev/fasten-stitch.css"></head>
+<script src="https://cdn.fastenhealth.com/connect/dev/fasten-stitch.js" type="module"></script>
+
+<!-- Add the fasten-stitch tag to the body of the html file, defaults to redirect mode -->
+<fasten-stitch connect-mode="popup" public-id="public_test_rei2un7aagh5pquwikxh2dsyq23bsdyu4l8vm9eq29ftu"></fasten-stitch>
+
+<script type="application/javascript">
+    const el = document.querySelector('fasten-stitch');
+    el.addEventListener('orgConnectionCallback', (event) => {
+        console.log("received actionable event payload", event.detail)
+    });
+</script>

@@ -1,0 +1,13 @@
+{
+  "name": "fasten-connect-quickstart",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "git@github.com:fastenhealth/fasten-connect-quickstart.git",
+  "author": "Jason Kulatunga <jason@fastenhealth.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.19.2",
+    "express-ejs-layouts": "^2.5.1"
+  }
+}

@@ -1,0 +1,11 @@
+<script type="application/javascript">
+
+    const urlParams = new URLSearchParams(window.location.search);
+    // write the payload to the page
+    document.getElementById('callbackPayload').innerText = JSON.stringify(Object.fromEntries(urlParams.entries()), null, 2);
+</script>
+
+<h1>Redirect Callback Payload</h1>
+<code id="callbackPayload">
+</code>
+

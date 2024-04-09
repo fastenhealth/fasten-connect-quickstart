@@ -2,3 +2,6 @@
 Quickstart for Fasten Connect
 
 
+```bash
+node app.js
+```

@@ -6,7 +6,7 @@
   "author": "Jason Kulatunga <jason@fastenhealth.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.19.2",
+    "express": "^4.20.0",
     "sqlite3": "^5.1.7"
   },
   "scripts": {

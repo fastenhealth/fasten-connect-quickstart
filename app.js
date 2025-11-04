@@ -14,8 +14,8 @@ const {
 const app = module.exports = express();
 
 const PORT = process.env.PORT || 3000;
-const FASTEN_PUBLIC_ID = process.env.FASTEN_PUBLIC_ID || 'public_test_6f5j7qj54rlyajv6u8r36z0iu5v9qjf87f77tzl3k6ezu';
-const FASTEN_PRIVATE_KEY = process.env.FASTEN_PRIVATE_KEY || '';
+const FASTEN_PUBLIC_ID = process.env.FASTEN_PUBLIC_ID;
+const FASTEN_PRIVATE_KEY = process.env.FASTEN_PRIVATE_KEY;
 const FASTEN_API_BASE_URL = (process.env.FASTEN_API_BASE_URL || 'https://api.connect.fastenhealth.com').replace(/\/$/, '');
 const indexTemplatePath = path.join(__dirname, 'views', 'index.html');
 const indexTemplate = fs.readFileSync(indexTemplatePath, 'utf8');

@@ -9,7 +9,7 @@ This repo includes minimal Node.js application that will implement  a bulk EHI e
 
 > **New to Fasten Connect?**  
 > Start with the official Quickstart and API references.  
-> Stitch.js component docs are [here](https://docs.connect.fastenhealth.com/stitch/v3/introduction).  
+> Stitch.js component docs are [here](https://docs.connect.fastenhealth.com/stitch/v4/introduction).  
 > Webhooks and delivery semantics are [here](https://docs.connect.fastenhealth.com/webhooks/introduction).
 
 ---

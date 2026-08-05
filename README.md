@@ -18,7 +18,7 @@ This repo includes minimal Node.js application that will implement  a bulk EHI e
 
 - `Node.js 22` and `npm`
 - [ngrok](https://ngrok.com/)
-- [Fasten Connect Developer](https://portal.connect.fastenhealth.com/) account
+- [Fasten Connect Developer](https://portal.fastenhealth.com/) account
   - Create credentials in the Developer Portal and note your **public** and **private** keys (`test` mode is fine to start)
 
 ## 1) Clone and install
@@ -67,7 +67,7 @@ ngrok http 3000
 ```
 
 ## 5) Configure your Fasten Connect webhook URL
-Log in to the [Fasten Connect Developer Portal](https://portal.connect.fastenhealth.com/), find the **Webhooks** section of the **Developer** tab.
+Log in to the [Fasten Connect Developer Portal](https://portal.fastenhealth.com/), find the **Webhooks** section of the **Developer** tab.
 Click the "Create Webhook" button, and set your webhook URL to the forwarding URL from ngrok, appending `/webhook`. For example: `https://xxxxxxxx.ngrok-free.app/webhook`.
 
 Make sure to select the `patient.connection_success` event type so the application will be notified when a patient successfully links their portal.
